@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# 环境变量文件（不要上传 .env）
+.env
+.env.*  # 如果你有 .env.development 或 .env.production
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# 数据库文件（可选，SQLite 等）
+*.sqlite
+*.sqlite3
+*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# VS Code / WebStorm 项目配置文件
+.vscode/
+.idea/
+
+# 临时文件
+tmp/
+temp/
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build 文件（如果你有用 Babel 编译后端）
+dist/
+build/
+
+# Coverage（测试覆盖率报告）
+coverage/
+
+# Sequelize 生成的数据库迁移锁文件
+.sequelize-meta
